@@ -1,0 +1,20 @@
+body {
+    background-color: cadetblue;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+}
+
+p.however {
+    font-weight: bold;
+}
+
+progress {
+    background-color: white;
+    height: 30px;
+    width: 80%;
+    color: beige;
+    margin-left: 80px;
+}
