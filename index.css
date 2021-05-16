@@ -2,6 +2,7 @@ body {
     background-image: url("images/sea.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
 }
 
@@ -53,6 +54,12 @@ p.however {
 }
 
 .social {
-    margin-top: 40px;
+    margin-top: 55px;
     text-align: center;
+
+}
+
+a {
+    margin-right: 10px;
+    margin-left: 10px;
 }
