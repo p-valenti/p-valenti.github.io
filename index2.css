@@ -68,7 +68,7 @@ h3 {
     margin-right: 12px;
 }
 
-.skills ul {
+.skills ul, .fwork ul, .swork ul, .twork ul {
     list-style-type: circle;
     line-height: 1.5;
 }
@@ -79,4 +79,11 @@ h3 {
 
 .summary {
     line-height: 1.5;
+}
+
+.workDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
 }
