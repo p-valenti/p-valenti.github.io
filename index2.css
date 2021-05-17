@@ -1,5 +1,5 @@
 body {
-    padding-top: 72px;
+    padding-top: 70px;
     margin: 0;
     background: aquamarine;
 }
@@ -11,7 +11,7 @@ body {
 
 .header {
     position: fixed;
-    height: 72px;
+    height: 70px;
     background: lightslategray;
     width: 100%;
     z-index: 10222;
@@ -25,6 +25,13 @@ body {
     line-height: 0.5;
 }
 
+hr {
+    border: none;
+    background-color: green;
+    color: red;
+    height: 2px;
+    width: 100%;
+}
 .jumborton {
     display: flex;
     flex-direction: row;
@@ -42,7 +49,24 @@ body {
     /*line-height: 0;*/
 }
 
+h3 {
+    text-align: center;
+}
+.address, .phone, .email {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
 
+.address img, .phone img, .email img {
+    margin-right: 12px;
+}
+
+.skills ul {
+    list-style-type: circle;
+    line-height: 1.5;
+}
 
 .rightside {
     margin-left: 20px;
