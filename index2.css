@@ -71,3 +71,7 @@ h3 {
 .rightside {
     margin-left: 20px;
 }
+
+.summary {
+    line-height: 1.5;
+}
