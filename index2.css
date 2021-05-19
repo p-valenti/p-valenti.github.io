@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    background: aquamarine;
+    background-image: url("images/rightbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumborton {
@@ -35,7 +37,7 @@ hr {
 
 .leftside {
     margin-right: 20px;
-    background: cadetblue;
+    background: burlywood;
 }
 
 .contact {
