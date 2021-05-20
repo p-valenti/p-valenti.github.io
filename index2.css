@@ -88,3 +88,24 @@ h3 {
     text-decoration: none;
     color: black;
 }
+
+.button {
+    background-color: darkgoldenrod;
+    padding: 10px 46px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 14px;
+    border-radius: 4px;
+    /*float: right;*/
+    margin-right: 80px;
+    margin-bottom: 10px;
+    color: white;
+    background-image: url("images/print.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button:hover {
+    background-color: grey;
+}
