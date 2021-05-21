@@ -97,8 +97,8 @@ h3 {
     /*display: inline-block;*/
     font-size: 14px;
     border-radius: 4px;
-    /*float: right;*/
-    margin-right: 80px;
+    float: right;
+    /*margin-right: 80px;*/
     margin-bottom: 10px;
     color: white;
     background-image: url("images/print.svg");
@@ -108,4 +108,11 @@ h3 {
 
 .button:hover {
     background-color: grey;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
