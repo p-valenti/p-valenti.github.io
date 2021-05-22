@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background: burlywood;
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+}
+
+.jumborton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
