@@ -84,7 +84,7 @@ h3 {
     margin-top: 25px;
 }
 
-.courses a {
+.courses a, .email a, .phone a {
     text-decoration: none;
     color: black;
 }
