@@ -1,112 +1,65 @@
 body {
-    margin: 0;
-    background-image: url("images/rightbackground.jpg");
+    background-image: url("images/sea.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
 }
 
 .jumborton {
-    width: 100%;
-    top: 0;
+    padding-top: 72px;
 }
 
-.name {
-    font-size: large;
+p {
     text-align: center;
-    line-height: 0.5;
+    font-size: 40px;
 }
 
-hr {
-    border: none;
-    background-color: green;
-    color: red;
-    height: 2px;
-    width: 100%;
+p.however {
+    font-weight: bold;
 }
 
-.hrN {
-    height: 5px;
+.progress {
+    background-color: #1a1a1a;
+    height: 25px;
+    padding: 5px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
 }
 
-.jumborton {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.progress span {
+    display: inline-block;
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out;
+    animation: result 4s ease-out infinite;
 }
 
-.leftside {
-    margin-right: 20px;
-    background: burlywood;
+@keyframes result {
+    0% {opacity: 0; width: 0;}
+    50% {opacity: .5;}
+    100% {opacity: 0; width: 95%;}
 }
 
-.contact {
-    margin-left: 15px;
+.blue span {
+    background-color: lightskyblue;
 }
 
-h3 {
+.shine span {
+    position: relative;
+}
+
+.social {
+    margin-top: 55px;
     text-align: center;
 }
 
-.address, .phone, .email {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.address img, .phone img, .email img {
-    margin-right: 12px;
-}
-
-.skills ul, .fwork ul, .swork ul, .twork ul, .education ul, .courses ul {
-    list-style-type: circle;
-    line-height: 1.5;
-}
-
-.rightside {
-    margin-left: 20px;
-}
-
-.summary {
-    line-height: 1.5;
-}
-
-.workDate {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 40px;
-}
-
-.seducation {
-    margin-top: 25px;
-}
-
-.courses a, .email a, .phone a {
+a {
+    margin-right: 10px;
+    margin-left: 10px;
     text-decoration: none;
-    color: black;
-}
-
-.button {
-    background-color: darkgoldenrod;
-    padding: 10px 46px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    background-image: url("images/print.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.button:hover {
-    background-color: grey;
-}
-
-.head {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
 }

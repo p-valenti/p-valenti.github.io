@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-image: url("images/rightbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumborton {
+    width: 100%;
+    top: 0;
+}
+
+.name {
+    font-size: large;
+    text-align: center;
+    line-height: 0.5;
+}
+
+hr {
+    border: none;
+    background-color: green;
+    color: red;
+    height: 2px;
+    width: 100%;
+}
+
+.hrN {
+    height: 5px;
+}
+
+.jumborton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftside {
+    margin-right: 20px;
+    background: burlywood;
+}
+
+.contact {
+    margin-left: 15px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.address, .phone, .email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.address img, .phone img, .email img {
+    margin-right: 12px;
+}
+
+.skills ul, .fwork ul, .swork ul, .twork ul, .education ul, .courses ul {
+    list-style-type: circle;
+    line-height: 1.5;
+}
+
+.rightside {
+    margin-left: 20px;
+}
+
+.summary {
+    line-height: 1.5;
+}
+
+.workDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.seducation {
+    margin-top: 25px;
+}
+
+.courses a, .email a, .phone a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color: darkgoldenrod;
+    padding: 10px 46px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-image: url("images/print.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

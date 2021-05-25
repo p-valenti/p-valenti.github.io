@@ -1,65 +1,61 @@
 body {
-    background-image: url("images/sea.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     margin: 0;
 }
 
-.jumborton {
-    padding-top: 72px;
+.myPhoto {
+    border-radius: 150px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 100px;
 }
 
-p {
+.head {
+    height: 350px;
+    background-image: url("images/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+@keyframes forArrow {
+    to {height: 60px; width: 60px;}
+    /*to {margin-left: 40px;}*/
+}
+.arrow {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    animation-name: forArrow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.down {
+    height: 350px;
+}
+
+blockquote {
+    height: 200px;
+    width: 400px;
+    /*background: lightgray;*/
+    /*margin-left: 20%;*/
+    float: right;
+    margin-top: 40px;
+    font-size: 30px;
     text-align: center;
-    font-size: 40px;
+    padding-top: 20px;
+    border-left: 4px solid saddlebrown;
+    line-height: 1.5;
 }
 
-p.however {
-    font-weight: bold;
-}
+/*blockquote:before {*/
+/*    content: open-quote;*/
+/*    color: red;*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 0;*/
+/*    font-size: 50px;*/
+/*    padding-bottom: 0;*/
 
-.progress {
-    background-color: #1a1a1a;
-    height: 25px;
-    padding: 5px;
-    width: 350px;
-    margin: auto;
-    border-radius: 5px;
-    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
-}
+/**/
 
-.progress span {
-    display: inline-block;
-    height: 25px;
-    width: 200px;
-    border-radius: 3px;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
-    transition: width .4s ease-in-out;
-    animation: result 4s ease-out infinite;
-}
-
-@keyframes result {
-    0% {opacity: 0; width: 0;}
-    50% {opacity: .5;}
-    100% {opacity: 0; width: 95%;}
-}
-
-.blue span {
-    background-color: lightskyblue;
-}
-
-.shine span {
-    position: relative;
-}
-
-.social {
-    margin-top: 55px;
-    text-align: center;
-}
-
-a {
-    margin-right: 10px;
-    margin-left: 10px;
-    text-decoration: none;
-}
