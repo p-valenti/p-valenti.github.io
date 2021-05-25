@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 620px;
 }
 
 .photo {
@@ -46,4 +47,21 @@ blockquote:before {
 
 .arrow {
     text-align: center;
+}
+
+/*@keyframes photos {*/
+/*    from {background-image: url("images/IMG_0592.JPG"); height: 600px; width: 400px;}*/
+/*    to {background-image: url("images/IMG_0592-1.jpg");height: 400px; width: 300px;}*/
+
+/*}*/
+.photo {
+    margin-top: 20px;
+    /*height: 600px;*/
+    /*width: 400px;*/
+    /*background-image: url("images/IMG_0592.JPG");*/
+    /*background-size: cover;*/
+    /*animation-name: photos;*/
+    /*animation-duration: 8s;*/
+    /*animation-direction: reverse;*/
+    /*box-shadow: 0 0 5px 10px #555;*/
 }
