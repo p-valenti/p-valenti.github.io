@@ -39,10 +39,25 @@ body {
 blockquote {
     height: 200px;
     width: 400px;
-    background: lightgray;
-    margin-left: 20%;
+    /*background: lightgray;*/
+    /*margin-left: 20%;*/
+    float: right;
+    /*margin-right: 260px;*/
     margin-top: 40px;
     font-size: 30px;
     text-align: center;
     padding-top: 20px;
+    border-left: 4px solid saddlebrown;
+    line-height: 1.5;
 }
+
+/*blockquote:before {*/
+/*    content: open-quote;*/
+/*    color: red;*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 0;*/
+/*    font-size: 50px;*/
+/*    padding-bottom: 0;*/
+
+/**/
+
