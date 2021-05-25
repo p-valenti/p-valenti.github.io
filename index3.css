@@ -13,11 +13,14 @@ body {
 }
 
 .photo {
+    margin-right: 50px;
     height: 100%;
     bottom: 0;
 }
 
 blockquote {
+    margin-left: 100px;
+    margin-top: 100px;
     background: lightblue;
     border-radius: 60px;
     width: 300px;
@@ -39,4 +42,8 @@ blockquote:before {
     font-size: 30px;
     margin-right: 15px;
     margin-top: 15px;
+}
+
+.arrow {
+    text-align: center;
 }
