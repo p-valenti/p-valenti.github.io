@@ -6,3 +6,9 @@ body {
     margin-top: 55px;
     text-align: center;
 }
+
+.social a {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
