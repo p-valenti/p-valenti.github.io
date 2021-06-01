@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-image: url("images/background.jpg");
-    /*background: burlywood;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,8 +30,6 @@ blockquote {
 blockquote p {
     text-align: center;
     margin: 10px;
-    /*padding-top: -20px;*/
-    /*padding: 10px;*/
     font-size: 25px;
     font-style: italic;
 }
@@ -49,19 +46,6 @@ blockquote:before {
     text-align: center;
 }
 
-/*@keyframes photos {*/
-/*    from {background-image: url("images/IMG_0592.JPG"); height: 600px; width: 400px;}*/
-/*    to {background-image: url("images/IMG_0592-1.jpg");height: 400px; width: 300px;}*/
-
-/*}*/
 .photo {
     margin-top: 20px;
-    /*height: 600px;*/
-    /*width: 400px;*/
-    /*background-image: url("images/IMG_0592.JPG");*/
-    /*background-size: cover;*/
-    /*animation-name: photos;*/
-    /*animation-duration: 8s;*/
-    /*animation-direction: reverse;*/
-    /*box-shadow: 0 0 5px 10px #555;*/
 }
