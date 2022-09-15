@@ -13,6 +13,49 @@ body {
     background-color: #c0d9f1;
 }
 
+/*.type h1 {*/
+/*    overflow: hidden; !* Ensures the content is not revealed until the animation *!*/
+/*    border-right: .15em solid white; !* The typwriter cursor *!*/
+/*    white-space: nowrap; !* Keeps the content on a single line *!*/
+/*    margin: 15px 10px auto; !* Gives that scrolling effect as the typing happens *!*/
+/*    letter-spacing: .15em; !* Adjust as needed *!*/
+/*    animation:*/
+/*            typing 4s steps(40, end),*/
+/*            blink-caret .75s step-end infinite;*/
+/*}*/
+
+/*!* The typing effect *!*/
+/*@keyframes typing {*/
+/*    from { width: 0 }*/
+/*    to { width: 100% }*/
+/*}*/
+
+/*!* The typewriter cursor effect *!*/
+/*@keyframes blink-caret {*/
+/*    from, to { border-color: transparent }*/
+/*    60% { border-color: white; }*/
+/*}*/
+/*blink-carpet:after {*/
+/*    */
+/*}*/
+
+.type{
+    margin: 20px 20px auto;
+    font-family: Calibri;
+    color: red;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    animation:
+            typing 5s forwards;
+    font-size: 30px;
+    width: 0;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 98% }
+}
+
 main {
     background-image: url("images/new2.jpg");
     background-repeat: no-repeat;
@@ -39,70 +82,45 @@ main {
 
 .sidebar-btn {
     position: fixed;
-    top: 2rem;
+    top: 35px;
     right: 3rem;
-    font-size: 2rem;
+    font-size: 30px;
     color: red;
+    font-family: Calibri;
     background: transparent;
     border-color: transparent;
-    /*color: var(--clr-primary-5);
-    transition: var(--transition);*/
     cursor: pointer;
-    /*animation: bounce 2s ease-in-out infinite;*/
+    border-bottom: #1a1a1a solid;
 }
 
-/*.sidebar-toggle:hover {
-    color: var(--clr-primary-7);
-}*/
-/*@keyframes bounce {*/
-/*    0% {*/
-/*        transform: scale(1);*/
-/*    }*/
-/*    50% {*/
-/*        transform: scale(1.5);*/
-/*    }*/
-/*    100% {*/
-/*        transform: scale(1);*/
-/*    }*/
-/*}*/
-
-/*.sidebar-header {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*    padding: 1rem 1.5rem;*/
-/*}*/
 .close-btn {
     font-size: 1.75rem;
     background: transparent;
     border-color: transparent;
-    /*color: var(--clr-primary-5);*/
-    /*transition: var(--transition);*/
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: 15px;
     cursor: pointer;
-    /*color: var(--clr-red-dark);*/
 }
+
 .close-btn:hover {
-    /*color: var(--clr-red-light);*/
-    transform: rotate(360deg);
+    transform: rotate(45deg);
 }
-/*.logo {*/
-/*    justify-self: center;*/
-/*    height: 40px;*/
-/*}*/
 
 .links a {
     display: block;
     font-size: 1.5rem;
     text-transform: capitalize;
-    padding: 1rem 1.5rem;
+    padding: 1.5rem 1.5rem;
+    margin-left: 40px;
     text-decoration: none;
     color: red;
-    /*color: var(--clr-grey-5);*/
-    /*transition: var(--transition);*/
 }
+
 .links a:hover {
-    /*background: var(--clr-primary-8);*/
-    /*color: var(--clr-primary-5);*/
     padding-left: 1.75rem;
 }
 
@@ -112,20 +130,19 @@ main {
     left: 0;
     width: 30%;
     height: 100%;
-    /*background: var(--clr-white);*/
     background-color: #c2b9a4;
     display: grid;
     grid-template-rows: auto 1fr auto;
     row-gap: 1rem;
-    /*box-shadow: var(--clr-red-dark);*/
-    /*transition: var(--transition);*/
     transform: translate(-100%);
 }
+
 .show-sidebar {
     transform: translate(0);
 }
+
 @media screen and (min-width: 676px) {
     .sidebar {
-        width: 400px;
+        width: 300px;
     }
 }
