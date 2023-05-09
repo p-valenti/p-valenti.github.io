@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    height: 100%;
 }
 
 .myPhoto {
@@ -45,4 +46,19 @@ blockquote {
     padding-top: 20px;
     border-left: 4px solid saddlebrown;
     line-height: 1.5;
+}
+
+.social {
+    margin-top: 55px;
+    text-align: center;
+}
+
+a {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.footer {
+
 }
