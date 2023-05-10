@@ -33,7 +33,7 @@ body {
 }
 
 .down {
-    height: 350px;
+    height: 400px;
 }
 
 blockquote {
@@ -49,8 +49,9 @@ blockquote {
 }
 
 .social {
-    margin-top: 55px;
+    /*margin-top: 55px;*/
     text-align: center;
+    margin-bottom: 20px;
 }
 
 a {
@@ -59,6 +60,10 @@ a {
     text-decoration: none;
 }
 
-.footer {
-
+@media screen and (min-height: 850px){
+    .footer {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+    }
 }
