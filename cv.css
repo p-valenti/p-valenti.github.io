@@ -57,7 +57,7 @@ h3 {
     margin-right: 12px;
 }
 
-.skills ul, .fwork ul, .swork ul, .twork ul, .education ul, .courses ul {
+.skills ul, .fwork ul, .swork ul, .twork ul, .education ul, .courses ul, .languages ul {
     list-style-type: circle;
     line-height: 1.5;
 }
@@ -70,9 +70,9 @@ h3 {
     line-height: 1.5;
 }
 
-.workDate {
+.works, .education {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-right: 40px;
 }
