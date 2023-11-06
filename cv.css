@@ -1,14 +1,23 @@
 body {
+    /*padding-top: 70px;*/
     margin: 0;
-    background-image: url("images/rightbackground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #A48D7C;
 }
 
 .jumborton {
     width: 100%;
     top: 0;
 }
+
+/*.header {*/
+/*    position: fixed;*/
+/*    height: 70px;*/
+/*    background: lightslategray;*/
+/*    width: 100%;*/
+/*    z-index: 10222;*/
+/*    box-shadow: 0 8px 16px -6px rgba(38, 38, 38, 0.16);*/
+/*    display: block;*/
+/*}*/
 
 .name {
     font-size: large;
@@ -18,7 +27,7 @@ body {
 
 hr {
     border: none;
-    background-color: green;
+    background-color: #4C6563;
     color: red;
     height: 2px;
     width: 100%;
@@ -32,32 +41,39 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /*margin: 4px 100px 10px 15px;*/
 }
 
 .leftside {
     margin-right: 20px;
-    background: burlywood;
+    background: #dbb293;
 }
 
 .contact {
     margin-left: 15px;
+    /*line-height: 0;*/
 }
 
 h3 {
     text-align: center;
 }
-
-.address, .phone, .email {
+.address, .phone, .email, .linkedin, .github {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: left;
+    /*align-items: center;*/
 }
 
-.address img, .phone img, .email img {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.address img, .phone img, .email img, .linkedin img, .github img {
     margin-right: 12px;
 }
 
-.skills ul, .fwork ul, .swork ul, .twork ul, .education ul, .courses ul, .languages ul {
+.skills ul, .languages ul, .certificates ul {
     list-style-type: circle;
     line-height: 1.5;
 }
@@ -66,47 +82,12 @@ h3 {
     margin-left: 20px;
 }
 
-.summary {
+.summary, .reference {
     line-height: 1.5;
 }
 
-.works, .education {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 40px;
-}
-
-.seducation {
-    margin-top: 25px;
-}
-
-.courses a, .email a, .phone a {
-    text-decoration: none;
-    color: black;
-}
-
-.button {
-    background-color: darkgoldenrod;
-    padding: 10px 46px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    background-image: url("images/print.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.button:hover {
-    background-color: grey;
-}
-
-.head {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.myPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
